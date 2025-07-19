@@ -21,11 +21,11 @@ def get_next_week_range(today=None): # All AI function
 
 
 
-def read_meals_from_file(filename):
+def read_meals_from_file(filename): # All AI function 
     with open(filename, 'r', encoding='utf-8') as f:
         return [line.strip() for line in f if line.strip()]
 
-def create_weekly_menu():
+def create_weekly_menu(): # All AI function 
     # Get next week's range
     start_date, end_date = get_next_week_range()
 
